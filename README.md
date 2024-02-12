@@ -1,7 +1,7 @@
 # Viajes Chile - Proyecto de Sitio Web de Una Sola Página
 
 ## Autor: Bzmn_
-![Avatar Bzmn_](./assets/img/avatar%20(300%20x%20300%20px).png\ "Bzmn_")
+![Avatar Bzmn_](./assets/img/avatar.png "Bzmn_")
 
 ## Visión General del Proyecto
 
