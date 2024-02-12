@@ -81,9 +81,24 @@ main{
 
 footer {
   background-color: var(--color-cyan);
+  h2{
+    a{
+      text-decoration: none;
+      color: var(--color-white-ish);
+    }
+  }
+  ul{
+    li{
+      a{
+        text-decoration: none;
+        color: var(--color-white-ish);
+      }
+    }
+  }
 }
 
 .social-icons {
   list-style: none;
 }
+
 

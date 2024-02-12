@@ -60,7 +60,7 @@
     </div>
   </header>
   <main>
-    <section class="pt-5">
+    <section class="pt-5 d-none d-md-block">
       <h2 class="text-center" id="quienes-somos">¿Quienes Somos?</h2>
       <div class="row">
         <div class="icon-card col-12 col-sm-4 text-center p-3" >
@@ -112,30 +112,30 @@
     </section>
     <section class="py-5" id="contacto">
       <h2 class="text-center">Contacto</h2>
-      <form>
+      <form id="contactForm">
         <div class="mb-3">
           <label for="inputName" class="form-label">Nombre</label>
           <input type="text" class="form-control" id="inputName" aria-describedby="name">
         </div>
         <div class="mb-3">
-          <label for="inputName" class="form-label">Asunto</label>
-          <input type="text" class="form-control" id="inputName" aria-describedby="name">
+          <label for="inputEmail" class="form-label">Asunto</label>
+          <input type="text" class="form-control" id="inputEmail" aria-describedby="name">
         </div>
         <div class="mb-3">
-          <label for="inputName" class="form-label">Mensaje</label>
-          <textarea type="text" class="form-control" id="inputName" aria-describedby="name"></textarea>
+          <label for="inputMessage" class="form-label">Mensaje</label>
+          <textarea type="text" class="form-control" id="inputMessage" aria-describedby="name"></textarea>
         </div>
         <button type="submit" class="btn btn-primary submit-button">Submit</button>
       </form>
     </section>
   </main>
   <footer class="d-flex p-3 justify-content-around">
-    <h2 class="m-0">VIAJES CHILE</h2>
+    <h2 class="m-0"><a href="#">VIAJES CHILE</a></h2>
     <ul class="d-flex gap-2 social-icons fs-3 m-0">
-      <li><i class="fa-brands fa-square-github"></i></li>
-      <li><i class="fa-brands fa-linkedin"></i></li>
-      <li><i class="fa-brands fa-square-twitter"></i></li>
-      <li><i class="fa-brands fa-square-facebook"></i></li>
+      <li><a href="https://github.com/"><i class="fa-brands fa-square-github"></i></a></i></li>
+      <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a></li>
+      <li><a href="https://twitter.com/"><i class="fa-brands fa-square-twitter"></i></a></li>
+      <li><a href="https://web.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a></li>
     </ul>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
